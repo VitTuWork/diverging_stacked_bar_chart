@@ -1,0 +1,68 @@
+@font-face {
+ font-family: 'Proto Grotesk';
+ src: local('☺️'),
+  url('https://static.istories.media/public/fonts/Proto Grotesk-Regular-Web.woff2') format('woff2'),
+  url('https://static.istories.media/public/fonts/Proto Grotesk-Regular-Web.woff') format('woff'),
+  url('https://static.istories.media/public/fonts/Proto Grotesk-Regular-Web.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+ font-display: swap;
+}
+@font-face {
+ font-family: 'Proto Grotesk';
+ src: local('☺️'),
+  url('https://static.istories.media/public/fonts/Proto Grotesk-Bold-Web.woff2') format('woff2'),
+  url('https://static.istories.media/public/fonts/Proto Grotesk-Bold-Web.woff') format('woff'),
+  url('https://static.istories.media/public/fonts/Proto Grotesk-Bold-Web.ttf') format('truetype');
+ font-weight: bold;
+ font-style: normal;
+ font-display: swap;
+}
+g {
+ font: normal 15px "Proto Grotesk";
+}
+html {
+    width: 100%;
+    height: 100%;
+    overflow:  hidden;
+}
+body {
+
+    width: 100%;
+    height: 100%;
+}
+#figure{
+    width: 100%;
+    height: 100%;
+    //background-color: #E6E6E6;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: none;
+  shape-rendering: crispEdges;
+}
+.y .tick line {
+    stroke: #ddd;
+  }
+.x .tick line {
+    fill: none;
+    stroke: #ddd;
+  }
+div.tooltip {
+    position: absolute;
+    //text-align: center;
+    //opacity: 0.5;
+    width: 20px;
+    height: 12px;
+    padding: 7px;
+    background: white;
+    font: bold 10px "Proto Grotesk";
+    border: 1px solid #000;
+    //border-radius: 5px;
+    pointer-events: none;
+    font-size: 1rem;
+}
+
+
+
